@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  background-image: url(/img/BG\ 1.png);
+  height: 1900px;
+  width: 1920px;
+  margin: 0;
+  padding: 0;
+}
+
+div>a{
+  text-decoration: 0;
+  color: white;
+}
+
+.header{
+  display: flex;
+  width: 1760px;
+  height: 37px;
+  margin-top: 64px;
+  margin-left: 91px;
+}
+
+.h-logo{
+  display: flex;
+  width: 113px;
+  height: 37px;
+  font-family: Playfair Display;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42.66px;
+  letter-spacing: 0.01em;
+}
+
+.h_eg{
+  display: flex;
+  width: 102px;
+  height: 27px;
+  margin-top: 2px;
+  margin-left: 739px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.h_about{
+  display: flex;
+  width: 100px;
+  height: 27px;
+  margin-top: 2px;
+  margin-left: 20px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;  
+}
+
+.h_blog{
+  display: flex;
+  width: 50px;
+  height: 27px;
+  margin-top: 2px;
+  margin-left: 10px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px; 
+}
+
+.h_account{
+  display: flex;
+  height: 26px;
+  width: 105px;
+  margin-left: auto;
+  margin-top: 3px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 25.5px;
+}
+.acc{
+  margin-left: 3px;
+  margin-top: 1px;
+}
+
+.cart{
+  width: 24px;
+  height: 24px;
+}
+
+.content{
+  display: grid;
+  width: 950px;
+  height: 419px;
+  margin-left: 500px;
+  gap: 32px;
+  margin-top: -287px;
+}
+
+.rectangle{
+  margin-right: 30px;
+  margin-bottom: 5px;
+}
+
+.group17{
+  width: 323px;
+  height: 27px;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: 27px;
+  letter-spacing: 6px;
+  text-align: left;
+  color: #FBD784;
+}
+
+.cont{
+  display: flex;
+  width: 950px;
+  height: 300px;
+  gap: 0px;
+  font-family: Playfair Display;
+  font-size: 88px;
+  font-weight: 600;
+  line-height: 100px;
+  text-align: left;
+  color: white;
+}
+
+.group7{
+  display: flex;
+  width: 132px;
+  height: 27px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color:white;
+}
+
+.down{
+  width: 16px;
+  height: 24px;
+  padding-left: 5px;
+}
+
+.social{
+  display: grid;
+  width: 27px;
+  height: 173px;
+  margin-top: 359px;
+  margin-left: 77px;
+
+}
+
+.s_text{
+  display: flex;
+  color: white;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  writing-mode: vertical-rl;
+}
+
+.insta{
+  width: 24px;
+  height: 24px;
+  top: 460px;
+  left: 80px;
+  padding: 2px;
+}
+
+.twitter{
+  width: 24px;
+  height: 24px;
+  top: 508px;
+  left: 80px;
+  padding: 4px 1.54px 3px 1.54px;
+}
