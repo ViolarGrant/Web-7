@@ -2,12 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
-  background-image: url(/img/BG\ 1.png);
-  background-size: cover;
-  height: 1900px;
   width: 1920px;
+  height: 4600px;
   margin: 0;
   padding: 0;
+}
+
+.desktop1920{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1920px;
+  height: 4600px;
+  background: #0B1D26;
+  background-size: 100%;
+  box-shadow: 0px 0px 100px 0px #00000033;
+  margin: 0;
+  padding: 0;
+}
+
+.content1{
+  display: flex;
+  position: relative;
+  background-image: url(/img/BG\ 1.png);
+  height: 1900px;
+  width: 1920px;
+  background-repeat: no-repeat;
 }
 
 
@@ -16,12 +35,20 @@ div>a{
   color: white;
 }
 
-.header{
+header{
   display: flex;
+  position: relative;
   width: 1760px;
   height: 37px;
-  margin-top: 64px;
-  margin-left: 91px;
+  top: 64px;
+  left: 91px;
+}
+
+.header{
+  display: flex;
+  position: relative;
+  width: 1760px;
+  height: 37px;
 }
 
 .h-logo{
@@ -94,11 +121,12 @@ div>a{
 
 .content{
   display: grid;
+  position: relative;
   width: 950px;
   height: 419px;
   margin-left: 500px;
   gap: 32px;
-  margin-top: -287px;
+  margin-top: 287px;
 }
 
 .rectangle{
@@ -149,10 +177,11 @@ div>a{
 
 .social{
   display: grid;
+  position: relative;
   width: 27px;
   height: 173px;
-  margin-top: 359px;
-  margin-left: 77px;
+  top: 359px;
+  left: 77px;
 }
 
 .s_text{
@@ -183,12 +212,12 @@ div>a{
 
 .slider{
   display: flex;
-  position: absolute;
+  position: relative;
   width: 77px;
   height: 244px;
   top: 326px;
   left: 1763px;
-  padding-top: 100px;
+
 }
 
 .slider_text{
@@ -214,10 +243,14 @@ div>a{
 }
 
 .BG_content{
+  display: flex;
+  position: relative;
   width: 1920px;
-height: 700px;
-top: 1200px;
-}
+  height: 700px;
+  top: 1200px;
+  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+};
+
 
 .content_2{
   display: flex;
@@ -227,19 +260,12 @@ top: 1200px;
   top: 1440px;
   left: 229px;
   gap: 200px;
-  opacity: 0px;
-
 }
 
-.BG_content{
-  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
-
-}
-
-.content_2{
+.c_01{
   display: flex;
-  background: #0B1D26 61.38%;
+  position: absolute;
   width: 1462px;
   height: 720px;
-  justify-content: center;
+  
 }
