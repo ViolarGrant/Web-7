@@ -10,6 +10,7 @@ body{
 
 .desktop1920{
   display: flex;
+  position: relative;
   flex-wrap: wrap;
   width: 1920px;
   height: 4600px;
@@ -22,7 +23,8 @@ body{
 
 .content1{
   display: flex;
-  position: relative;
+  position: absolute;
+  
   background-image: url(/img/BG\ 1.png);
   height: 1900px;
   width: 1920px;
@@ -37,11 +39,12 @@ div>a{
 
 header{
   display: flex;
-  position: relative;
+  position: absolute;
   width: 1760px;
   height: 37px;
   top: 64px;
   left: 91px;
+  z-index: 100;
 }
 
 .header{
@@ -72,6 +75,7 @@ header{
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
+  
 }
 
 .h_about{
@@ -254,7 +258,7 @@ header{
 
 .content_2{
   display: flex;
-  position: absolute;
+  position: relative;
   width: 1,478px;
   height: 3,040px;
   top: 1440px;
@@ -264,7 +268,7 @@ header{
 
 .c_01{
   display: flex;
-  position: absolute;
+  position: relative;
   width: 1462px;
   height: 720px;
   
