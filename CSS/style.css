@@ -3,11 +3,13 @@
 
 body{
   background-image: url(/img/BG\ 1.png);
+  background-size: cover;
   height: 1900px;
   width: 1920px;
   margin: 0;
   padding: 0;
 }
+
 
 div>a{
   text-decoration: 0;
@@ -151,7 +153,6 @@ div>a{
   height: 173px;
   margin-top: 359px;
   margin-left: 77px;
-
 }
 
 .s_text{
@@ -178,4 +179,67 @@ div>a{
   top: 508px;
   left: 80px;
   padding: 4px 1.54px 3px 1.54px;
+}
+
+.slider{
+  display: flex;
+  position: absolute;
+  width: 77px;
+  height: 244px;
+  top: 326px;
+  left: 1763px;
+  padding-top: 100px;
+}
+
+.slider_text{
+  display: flex;
+  width: 46px;
+  height: 228px;
+  color: white;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 35px;
+  line-height: 70px;
+  text-align: right;
+  margin-top: -11px;
+}
+
+.slider_picture{
+  display: flex;
+  width: 3px;
+  height: 240px;
+  top: 326px;
+  left: 1837px;
+}
+
+.BG_content{
+  width: 1920px;
+height: 700px;
+top: 1200px;
+}
+
+.content_2{
+  display: flex;
+  position: absolute;
+  width: 1,478px;
+  height: 3,040px;
+  top: 1440px;
+  left: 229px;
+  gap: 200px;
+  opacity: 0px;
+
+}
+
+.BG_content{
+  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+
+}
+
+.content_2{
+  display: flex;
+  background: #0B1D26 61.38%;
+  width: 1462px;
+  height: 720px;
+  justify-content: center;
 }
