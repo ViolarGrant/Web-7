@@ -253,17 +253,16 @@ header{
   height: 700px;
   top: 1200px;
   background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
-};
+}
 
 
-.content_2{
+.content2{
   display: flex;
-  position: relative;
-  width: 1,478px;
-  height: 3,040px;
+  position: absolute;
+  width: 1478px;
+  height: 3040px;
   top: 1440px;
   left: 229px;
-  gap: 200px;
 }
 
 .c_01{
@@ -272,4 +271,21 @@ header{
   width: 1462px;
   height: 720px;
   
+}
+
+.eg_01{
+  display: flex;
+  position: absolute;
+  width: 247px;
+  height: 240px;
+  top: 38px;
+  opacity: 0.1px;
+}
+
+.picture_01{
+  display: flex;
+  position: absolute;
+  width: 566px;
+  height: 720px;
+  left: 896px;
 }
